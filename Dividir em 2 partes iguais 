@@ -1,0 +1,102 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kdenilson/Kdenilson/blob/main/Dividir%20em%202%20partes%20iguais%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd"
+      ],
+      "metadata": {
+        "id": "zfW4ChL-DG78"
+      },
+      "execution_count": 107,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "magic04.data = np.arange(10)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mQUt0PMaJYZy",
+        "outputId": "8d784f61-261c-4555-cfbd-264b4af5a7c7"
+      },
+      "execution_count": 108,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "<ipython-input-108-c1a0d603ac50>:1: DeprecationWarning: Assigning the 'data' attribute is an inherently unsafe operation and will be removed in the future.\n",
+            "  magic04.data = np.arange(10)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tamanho_df = len(magic04.data)\n",
+        "tamanho_um = len(magic04.data) // 2\n",
+        "tamanho_dois = len(magic04.data) // 2"
+      ],
+      "metadata": {
+        "id": "RH1ZL5f0EwMa"
+      },
+      "execution_count": 109,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(magic04)\n",
+        "print(tamanho_um)\n",
+        "print(tamanho_dois)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UxGByq6JKo6F",
+        "outputId": "f3e90a0a-0c96-46e8-91d2-80bf82467903"
+      },
+      "execution_count": 110,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[0 1 2 3 4 5 6 7 8 9]\n",
+            "5\n",
+            "5\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Damos-lhe as boas-vindas ao Colaboratory",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
